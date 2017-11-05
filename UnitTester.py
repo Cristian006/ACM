@@ -36,8 +36,10 @@ class UnitTester(object):
 
             if validOutputString != output:
                 incorrectOnes.append(inputFilePath)
-                #print(validOutputString + ' == ' + output)
-                #print( "\n\nOutput: ", validOutputString == output)
+                print(validOutputString + ' == ' + output)
+                print( "\n\nOutput: ", validOutputString == output)
+            else:
+                print("\n\nValid: ", validOutputString == output)
 
         print("\n\nAmount Wrong: ", len(incorrectOnes))
         print(incorrectOnes)

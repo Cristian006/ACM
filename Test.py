@@ -1,7 +1,5 @@
 from UnitTester import UnitTester
-from UnitTestable.Cameras import cameras
-from UnitTestable.Gravity import gravity
-from UnitTestable.Islands import islands
+from UnitTestable.Postman import postman
 
 '''
 Import Unit Tester and Import Testing Program
@@ -18,6 +16,6 @@ ut = UnitTester()
 #ut.test_is_same_as_output(inputFolder, outputFolder, gravity)
 
 
-inputFolder = "C:\\Users\\Tyler\\Google Drive\\AlgorithmsCheatSheets\\Solutions_Div2_Problemset1\\recap\\Islands\\input"
-outputFolder = "C:\\Users\\Tyler\\Google Drive\\AlgorithmsCheatSheets\\Solutions_Div2_Problemset1\\recap\\Islands\\output"
-ut.test_is_same_as_output(inputFolder, outputFolder, islands)
+inputFolder = "C:\\Users\\Tyler\\OneDrive\\Documents\\Github\\ACM\\UnitTests\\Postman\\input"
+outputFolder = "C:\\Users\\Tyler\\OneDrive\\Documents\\Github\\ACM\\UnitTests\\Postman\\output"
+ut.test_is_same_as_output(inputFolder, outputFolder, postman)
