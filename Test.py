@@ -7,6 +7,7 @@ from UnitTestable.Grid import grid
 from UnitTestable.Complexity import complexity
 from UnitTestable.Excellence import excellence
 from UnitTestable.ClassTime import classtime
+from UnitTestable.Gears import gears
 '''
 Import Unit Tester and Import Testing Program
 '''
@@ -53,6 +54,10 @@ ut = UnitTester()
 # ut.test_is_same_as_output(inputFolder, outputFolder, excellence)
 
 
-inputFolder = "C:\\Users\\Tyler\\Google Drive\\AlgorithmsCheatSheets\\2015\\recap\\recap\\ClassTime\\input"
-outputFolder = "C:\\Users\\Tyler\\Google Drive\\AlgorithmsCheatSheets\\2015\\recap\\recap\\ClassTime\\output"
-ut.test_is_same_as_output(inputFolder, outputFolder, classtime)
+# inputFolder = "C:\\Users\\Tyler\\Google Drive\\AlgorithmsCheatSheets\\2015\\recap\\recap\\ClassTime\\input"
+# outputFolder = "C:\\Users\\Tyler\\Google Drive\\AlgorithmsCheatSheets\\2015\\recap\\recap\\ClassTime\\output"
+# ut.test_is_same_as_output(inputFolder, outputFolder, classtime)
+
+inputFolder = "C:\\Users\\Tyler\\Google Drive\\AlgorithmsCheatSheets\\2015\\recap\\recap\\Gears\\input"
+outputFolder = "C:\\Users\\Tyler\\Google Drive\\AlgorithmsCheatSheets\\2015\\recap\\recap\\Gears\\output"
+ut.test_is_same_as_output(inputFolder, outputFolder, gears)
